@@ -11,12 +11,21 @@
   vertical-align: baseline;
   background: transparent;
 }
+nav ul li a {
+  color: #968772
+}
+nav ul li a  {
+  color: #967343
+}
+ul {
+  list-style: none;
+}
 
 .nav-row {
   display: flex;
   background-color: #ffffff ;
   height:50px;
-  justify-content: right;
+  justify-content: center;
   position: fixed;
   width: 100%;
   top: 0;
