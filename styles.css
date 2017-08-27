@@ -1,4 +1,4 @@
-*, *:before, *:after {
+/**, *:before, *:after {
   box-sizing: border-box;
 }
 
@@ -13,10 +13,8 @@
 }
 nav ul li a {
   color: #968772
-}
-nav ul li a  {
-  color: #967343
-}
+}*/
+
 ul {
   list-style: none;
 }
@@ -25,7 +23,7 @@ ul {
   display: flex;
   background-color: #ffffff ;
   height:50px;
-  justify-content: center;
+  justify-content: ;
   position: fixed;
   width: 100%;
   top: 0;
