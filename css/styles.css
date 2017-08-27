@@ -1,4 +1,4 @@
-/**, *:before, *:after {
+/**:before, *:after {
   box-sizing: border-box;
 }
 
@@ -10,10 +10,19 @@
   font-size: 100%;
   vertical-align: baseline;
   background: transparent;
+}*/
+body {
+  background: url('../images/Fall-Nature-Background-Pictures.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 nav ul li a {
-  color: #968772
-}*/
+  color: #EAEDED;
+  text-decoration: none;
+  font-family: PT sans;
+  font-size: 20px;
+}
 
 ul {
   list-style: none;
@@ -21,7 +30,7 @@ ul {
 
 .nav-row {
   display: flex;
-  background-color: #ffffff ;
+  background-color: #7F8C8D;
   height:50px;
   justify-content: ;
   position: fixed;
@@ -29,5 +38,39 @@ ul {
   top: 0;
   margin: 0;
   padding: 0;
+}
 
+.nav-item {
+  padding: 10px;
+}
+
+.back-pic {
+  background: url('../images/Fall-Nature-Background-Pictures.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 500px;
+  width: 500px;
+  /*z-index: 1;*/
+  /*align-items: center;*/
+  /*width: 100%;
+  height: 100%;*/
+
+}
+
+.main-header {
+  text-align: center;
+  padding-top: 10px;
+  font-size: 50px;
+  margin: 50px;
+}
+/*about me*/
+.about-me {
+  padding-top: 75px;
+
+}
+
+/*contact info*/
+.contact-info {
+  padding-top: 75px;
 }
