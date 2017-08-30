@@ -55,22 +55,26 @@ ul {
 #recipe-pic {
   background-image: url(../images/recipe-box.jpg);
   background-size: cover;
-  width: 50%;
+  width: 500px;
   height: 300px;
+}
+
+.summary1 {
+  text-align: right;
 }
 
 #film-pic {
-  background-image: url(../images/film-pic.jpg);
+  background-image: url(../images/film-festival.jpg);
   background-size: cover;
-  width: 50%;
-  height: 300px;
+  width: 500px;
+  height: 400px;
 }
 
 #display-pic {
-  background-image: url(../images/display-pic);
+  background-image: url(../images/fetch-api.jpg);
   background-size: cover;
-  width: 50%;
-  height: 300px;
+  width: 500px;
+  height: 350px;
 }
 /*about me*/
 .about-me {
