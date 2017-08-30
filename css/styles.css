@@ -47,6 +47,31 @@ ul {
   font-size: 36px;
   margin: 50px;
 }
+
+.portfolio-box {
+  display: flex;
+  flex-direction: column;
+}
+#recipe-pic {
+  background-image: url(../images/recipe-box.jpg);
+  background-size: cover;
+  width: 50%;
+  height: 300px;
+}
+
+#film-pic {
+  background-image: url(../images/film-pic.jpg);
+  background-size: cover;
+  width: 50%;
+  height: 300px;
+}
+
+#display-pic {
+  background-image: url(../images/display-pic);
+  background-size: cover;
+  width: 50%;
+  height: 300px;
+}
 /*about me*/
 .about-me {
   padding-top: 75px;
