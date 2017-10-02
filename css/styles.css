@@ -51,7 +51,7 @@ ul {
 .portfolio-box {
   display: flex;
   flex-direction: row;
-  /*flex-wrap: nowrap;*/
+  flex-wrap: wrap;
 }
 
 .recipe-pic {
@@ -78,7 +78,7 @@ ul {
   height: auto;
   margin: 10px;
   text-align: center;
-  padding-top: 50px;
+  /*padding-top: 50px;*/
 }
 
 .film-pic {
@@ -91,7 +91,7 @@ ul {
   background-size: cover;
   background-repeat: no-repeat;
   width: 46%;
-  height: 400px;
+  height: 450px;
   margin: 10px;
 }
 
@@ -105,7 +105,7 @@ ul {
     height: auto;
     margin: 10px;
     text-align: center;
-    padding-top: 50px;
+    /*padding-top: 50px;*/
 }
 
 .display-pic {
@@ -118,7 +118,7 @@ ul {
   background-size: cover;
   background-repeat: no-repeat;
   width: 46%;
-  height: 350px;
+  height: 400px;
   margin: 10px;
 }
 
@@ -132,7 +132,7 @@ ul {
   height: auto;
   margin: 10px;
   text-align: center;
-  padding-top: 50px;
+  /*padding-top: 50px;*/
 }
 /*about me*/
 .about-me {
