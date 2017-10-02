@@ -138,11 +138,31 @@ ul {
   padding-bottom: 100px;
 }
 /*about me*/
-.about-me {
-  padding-top: 75px;
-  font-size: 20px;
-  margin: 30px;
+/*.about-me {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}*/
 
+.profile-pic{
+  /*display: flex;
+  flex-flow: column;
+  flex-wrap: nowrap;*/
+  justify-content: center;
+  align-items: center;
+  background-image: url(../images/profile-pic.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 300px;
+}
+
+.bio{
+  /*display: flex;
+  flex-flow: column;
+  flex-wrap: nowrap;*/
+  justify-content: center;
+  align-items: center;
 }
 
 /*contact info*/
