@@ -50,8 +50,8 @@ ul {
 
 .portfolio-box {
   display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
+  flex-direction: row;
+  /*flex-wrap: nowrap;*/
 }
 
 .recipe-pic {
