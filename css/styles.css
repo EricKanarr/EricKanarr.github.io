@@ -137,6 +137,25 @@ ul {
   font-size: 20px;
   padding-bottom: 100px;
 }
+
+.links-wrapper{
+  display: flex;
+  justify-content: center;
+}
+
+.project-link {
+  background-color: #FFFFFF;
+  border: 1px solid;
+  border-radius: 5px;
+  display: flex;
+  font-size: 1.2rem;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 30px;
+  margin: 20px;
+}
+
 /*about me*/
 /*.about-me {
   display: flex;
